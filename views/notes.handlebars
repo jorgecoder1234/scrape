@@ -1,0 +1,41 @@
+{{#each article}}
+
+
+<h1><a href="{{this.link}}" target="_blank">{{this.title}}</a></h1>
+
+<form action="/notes/{{this._id}}" method="POST">
+	<div class="form-group">
+		<label class="control-label" for="note"></label>
+		<input type="text" class="form-control" id="note" name="note" placeholder="Your commentplease...">
+	</div>
+	<button type="submit" class="add-note-btn btn btn-success" id="comment-btn">Add Comments</button>
+</form>
+
+
+{{/each}}
+
+
+
+{{#each article}}
+{{#each this.note}}
+
+
+
+<div class="col-md-10">
+	<h4>{{this.note}}</h4>
+</div>
+
+<div class="col-md-2">
+	<form action="/note/{{this._id}}?_method=PUT" method="POST">
+		<input type="hidden" name="delete-btn" value="false">
+		<button type="submit" class="delete-btn btn btn-danger">Delete Comment</button>
+	</form>
+</div>
+
+
+
+
+
+
+{{/each}}
+{{/each}}

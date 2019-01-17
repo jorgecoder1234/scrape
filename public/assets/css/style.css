@@ -1,0 +1,65 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+
+
+/* Scraper link */
+#scraper-link {
+    /*color: #B94A48;*/
+    background-color: #B94A48;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    text-align: center;
+    /* background-image: url("../images/newspaper.jpg"); */
+    opacity: 0.8;
+    background-size: 100%;
+    color: #3A87AD;
+}
+
+
+/* Footer */
+.footer {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.status{
+	background-color:goldenrod;
+}
+
+
+/* Article list */
+#articles {
+    overflow: auto;
+    height: 500px;
+}
+
+/* form { display: inline; } */
+
+
+textarea,
+input {
+    width: 100%;
+}
+
+.test {
+	float: right;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: auto
+}
+
+
+.savebtntest{
+	 float: right;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+
+
+}

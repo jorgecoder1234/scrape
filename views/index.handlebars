@@ -1,0 +1,49 @@
+<div class="message">
+	<h2>{{message}}</h3>
+</div>
+
+
+
+
+{{#each articles}}
+<div class="story-body" id={{this.id}}>
+
+	<div class="panel panel-success">
+		<div class="panel-heading">{{this.title}}
+
+
+			{{!-- <div class="buttons"> --}}
+				<form action="/save/{{this._id}}" method="POST" class="savebtntest">
+					<button type="submit" class="status" value="{{this.status}}">{{this.status}}</button>
+					{{!-- </div> --}}
+			</form>
+
+
+		</div>
+		{{!-- panel heading --}}
+
+
+		<div class="panel-body">
+			<a href="{{this.link}}" target="_blank">{{this.title}}</a>
+			<summary>{{this.summary}}</summary>
+			<img class="media" src="{{this.img}}">
+		</div>
+		{{!-- Panel Body --}}
+
+
+	</div>
+	{{!-- Panel sucess --}}
+
+</div>
+{{!-- story-body --}}
+
+
+
+
+{{/each}}
+
+
+<footer class="footer">
+	<div class="container" id="footer-text">
+		<p class="text-muted">Copyright &reg; 2019 Jorge Castellanos</p>
+	</div>

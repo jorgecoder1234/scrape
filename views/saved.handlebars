@@ -1,0 +1,46 @@
+{{#each saved}}
+<div class="story-body"   id={{this.id}}>
+
+
+
+<div class="panel panel-success">
+
+<div class="panel-heading">{{this.title}}
+
+    
+
+<form action="/save/{{this._id}}" method="POST" class="test">
+<button type="submit" class="status  btn-danger" value="{{this.status}}">Unsave</button>
+{{!-- </div> --}}
+</form>
+
+<form action="/notes/{{this._id}}" method="GET" class="test">
+<button type="submit" class="add-note-btn  btn-danger" id="comment-btn">Add Note</button>
+</form>
+
+
+{{!-- <div class="buttons"> --}}
+
+
+</div>
+{{!-- panel heading --}}
+
+{{!-- close the roww --}}
+
+ <div class="panel-body">
+<a href="{{this.link}}" target="_blank">{{this.title}}</a>
+<summary>{{this.summary}}</summary>
+<img class="media" src="{{this.img}}">
+</div>
+{{!-- Panel Body --}}
+
+
+</div> 
+{{!-- Panel sucess --}}
+
+</div>
+{{!-- story-body --}}
+
+
+
+{{/each}}
