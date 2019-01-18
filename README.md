@@ -6,9 +6,11 @@ https://immense-thicket-29215.herokuapp.com/
 https://jorgecoder1234.github.io/portfolio/portfolio.html
 
 
+#Display a message with no Articles scrape- You have to press "scrape new articles"
 ![](models/image1.PNG)
 
 
+#display message a message of nothing is saved
 ![](models/image2.PNG)
 
 
