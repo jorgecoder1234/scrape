@@ -7,3 +7,21 @@ https://jorgecoder1234.github.io/portfolio/portfolio.html
 
 
 ![](models/image1.PNG)
+
+
+![](models/image1.PNG)
+
+
+![](models/image1.PNG)
+
+![](models/image1.PNG)
+
+
+![](models/image1.PNG)
+
+
+![](models/image1.PNG)
+
+
+![](models/image1.PNG)
+
