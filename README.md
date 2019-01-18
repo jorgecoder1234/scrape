@@ -13,10 +13,13 @@ https://jorgecoder1234.github.io/portfolio/portfolio.html
 #display message a message of nothing is saved
 ![](models/image2.PNG)
 
+if you press "save article" the article is saved and you can see them in the saved section
+#![](models/image4.PNG)
+
 #if ypu press "scrape new articles, you can see "the articles"
 ![](models/image3.PNG)
 
-![](models/image4.PNG)
+
 
 
 ![](models/image5.PNG)
