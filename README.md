@@ -24,7 +24,7 @@ https://jorgecoder1234.github.io/portfolio/portfolio.html
 
 ![](models/image5.PNG)
 
-
+#You can delete the comments of the Article
 ![](models/image6.PNG)
 
 
