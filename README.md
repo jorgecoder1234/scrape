@@ -20,7 +20,7 @@ https://jorgecoder1234.github.io/portfolio/portfolio.html
 ![](models/image3.PNG)
 
 
-
+#if you press "add note" you can add comments to the Article
 
 ![](models/image5.PNG)
 
